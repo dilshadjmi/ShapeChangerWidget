@@ -1,0 +1,16 @@
+Container(
+                       padding: EdgeInsets.all(3.0),
+                       alignment: Alignment.bottomCenter,
+                       decoration: BoxDecoration(
+                          gradient: LinearGradient(
+                            begin: Alignment.bottomRight,
+                            end: Alignment.topLeft,
+                            colors: <Color>[
+                              Colors.black,
+                              Colors.grey,
+                              Colors.green,
+                            ]
+                          )
+                        ),
+
+                      )
